@@ -1,0 +1,81 @@
+class Vector2{
+    private var x: Int = 0,
+                y: Int = 0;
+
+    Int getX(){
+        return x;
+    }
+
+    func setX(i: Int){
+        x = i;
+    }
+
+    Int getY(){
+        return y;
+    }
+
+    func setY(i: Int){
+        y = i;
+    }
+}
+
+class Vector3{
+    private var x: Int = 0,
+                y: Int = 0,
+                z: Int = 0;
+
+    Int getX(){
+        return x;
+    }
+
+    func setX(i: Int){
+        x = i;
+    }
+
+    Int getY(){
+        return y;
+    }
+
+    func setY(i: Int){
+        y = i;
+    }
+
+    Int getZ(){
+        return z;
+    }
+
+    func setZ(i: Int){
+        z = i;
+    }
+}
+
+class Vector4{
+    private var x: Int = 0,
+                y: Int = 0,
+                z: Int = 0,
+                q: Int = 0;
+
+    Int getX(){
+        return x;
+    }
+
+    func setX(i: Int){
+        x = i;
+    }
+
+    Int getY(){
+        return y;
+    }
+
+    func setY(i: Int){
+        y = i;
+    }
+
+    Int getZ(){
+        return z;
+    }
+
+    func setZ(i: Int){
+        z = i;
+    }
+}
